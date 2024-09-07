@@ -1,0 +1,169 @@
+#define "Gulliver's Purification" <NORTH_WEST aawawwawwa>
+#define "Alter Scale" <NORTH_EAST ddwdwwdwwd>
+#define "Mind's Reflection" <NORTH_EAST qaq>
+#define "Compass' Purification" <EAST aa>
+#define "Compass' Purification II" <NORTH_EAST dd>
+#define "Alidade's Purification" <EAST wa>
+#define "Archer's Distillation" <EAST wqaawdd>
+#define "Architect's Distillation" <EAST weddwaa>
+#define "Scout's Distillation" <EAST weaqa>
+#define "Reveal" <NORTH_EAST de>
+#define "Stadiometer's Prfn." <NORTH_EAST awq>
+#define "Pace Purification" <EAST wq>
+#define "Additive Distillation" <NORTH_EAST waaw>
+#define "Subtractive Distillation" <NORTH_WEST wddw>
+#define "Multiplicative Dstl." <SOUTH_EAST waqaw>
+#define "Division Dstl." <NORTH_EAST wdedw>
+#define "Length Purification" <NORTH_EAST wqaqw>
+#define "Power Distillation" <NORTH_WEST wedew>
+#define "Floor Purification" <EAST ewq>
+#define "Ceiling Purification" <EAST qwe>
+#define "Vector Exaltation" <EAST eqqqqq>
+#define "Vector Disintegration" <EAST qeeeee>
+#define "Modulus Distillation" <NORTH_EAST addwaad>
+#define "Axial Purification" <NORTH_WEST qqqqqaww>
+#define "Entropy Reflection" <NORTH_WEST eqqq>
+#define "True Reflection" <SOUTH_EAST aqae>
+#define "False Reflection" <NORTH_EAST dedq>
+#define "Nullary Reflection" <EAST d>
+#define "Vector Reflection Zero" <NORTH_WEST qqqqq>
+#define "Circle's Reflection" <NORTH_WEST eawae>
+#define "Arc's Reflection" <NORTH_EAST qdwdq>
+#define "Euler's Reflection" <EAST aaq>
+#define "Jester's Gambit" <EAST aawdd>
+#define "Rotation Gambit" <EAST aaeaa>
+#define "Rotation Gambit II" <NORTH_EAST ddqdd>
+#define "Gemini Decomposition" <EAST aadaa>
+#define "Prospector's Gambit" <EAST aaedd>
+#define "Undertaker's Gambit" <EAST ddqaa>
+#define "Gemini Gambit" <EAST aadaadaa>
+#define "Dioscuri Gambit" <EAST aadadaaw>
+#define "Flock's Reflection" <NORTH_WEST qwaeawqaeaqa>
+#define "Fisherman's Gambit" <WEST ddad>
+#define "Fisherman's Gambit II" <EAST aada>
+#define "Swindler's Gambit" <SOUTH_EAST qaawdde>
+#define "Augur's Purification" <NORTH_EAST aw>
+#define "Length Purification" <NORTH_EAST wqaqw>
+#define "Negation Purification" <NORTH_WEST dw>
+#define "Disjunction Distillation" <SOUTH_EAST waw>
+#define "Conjunction Distillation" <NORTH_EAST wdw>
+#define "Exclusion Distillation" <NORTH_WEST dwa>
+#define "Augur's Exaltation" <SOUTH_EAST awdd>
+#define "Equality Distillation" <EAST ad>
+#define "Inequality Distillation" <EAST da>
+#define "Maximus Distillation" <SOUTH_EAST e>
+#define "Minimus Distillation" <SOUTH_WEST q>
+#define "Maximus Distillation II" <SOUTH_EAST ee>
+#define "Minimus Distillation II" <SOUTH_WEST qq>
+#define "Entity Purification" <SOUTH_EAST qqqqqdaqa>
+#define "Entity Prfn.: Animal" <SOUTH_EAST qqqqqdaqaawa>
+#define "Entity Prfn.: Monster" <SOUTH_EAST qqqqqdaqaawq>
+#define "Entity Prfn.: Item" <SOUTH_EAST qqqqqdaqaaww>
+#define "Entity Prfn.: Player" <SOUTH_EAST qqqqqdaqaawe>
+#define "Entity Prfn.: Living" <SOUTH_EAST qqqqqdaqaawd>
+#define "Zone Dstl.: Animal" <SOUTH_EAST qqqqqwdeddwa>
+#define "Zone Dstl.: Non-Animal" <NORTH_EAST eeeeewaqaawa>
+#define "Zone Dstl.: Monster" <SOUTH_EAST qqqqqwdeddwq>
+#define "Zone Dstl.: Non-Monster" <NORTH_EAST eeeeewaqaawq>
+#define "Zone Dstl.: Item" <SOUTH_EAST qqqqqwdeddww>
+#define "Zone Dstl.: Non-Item" <NORTH_EAST eeeeewaqaaww>
+#define "Zone Dstl.: Player" <SOUTH_EAST qqqqqwdeddwe>
+#define "Zone Dstl.: Non-Player" <NORTH_EAST eeeeewaqaawe>
+#define "Zone Dstl.: Living" <SOUTH_EAST qqqqqwdeddwd>
+#define "Zone Dstl.: Non-Living" <NORTH_EAST eeeeewaqaawd>
+#define "Zone Dstl.: Any" <SOUTH_EAST qqqqqwded>
+#define "Selection Distillation" <NORTH_WEST deeed>
+#define "Selection Exaltation" <NORTH_WEST qaeaqwded>
+#define "Integration Distillation" <SOUTH_WEST edqde>
+#define "Derivation Distillation" <NORTH_WEST qaeaq>
+#define "Additive Distillation" <NORTH_EAST waaw>
+#define "Vacant Reflection" <NORTH_EAST qqaeaae>
+#define "Single's Purification" <EAST adeeed>
+#define "Length Purification" <NORTH_EAST wqaqw>
+#define "Retrograde Purification" <EAST qqqaede>
+#define "Locator's Distillation" <EAST dedqde>
+#define "Excisor's Distillation" <SOUTH_WEST edqdewaqa>
+#define "Surgeon's Exaltation" <NORTH_WEST wqaeaqw>
+#define "Flock's Gambit" <SOUTH_WEST ewdqdwe>
+#define "Flock's Disintegration" <NORTH_WEST qwaeawq>
+#define "Speaker's Distillation" <SOUTH_EAST ddewedd>
+#define "Speaker's Decomposition" <SOUTH_WEST aaqwqaa>
+#define "Scribe's Reflection" <EAST aqqqqq>
+#define "Scribe's Gambit" <EAST deeeee>
+#define "Chronicler's Prfn." <EAST wawqwqwqwqwqw>
+#define "Chronicler's Gambit" <EAST wdwewewewewew>
+#define "Auditor's Reflection" <EAST aqqqqqe>
+#define "Auditor's Purification" <EAST wawqwqwqwqwqwew>
+#define "Assessor's Reflection" <EAST deeeeeq>
+#define "Assessor's Purification" <EAST wdwewewewewewqw>
+#define "Huginn's Gambit" <NORTH_WEST eqqwawqaaw>
+#define "Muninn's Reflection" <NORTH_EAST qeewdweddw>
+#define "Sine Purification" <SOUTH_EAST qqqqqaa>
+#define "Cosine Purification" <SOUTH_EAST qqqqqad>
+#define "Tangent Purification" <SOUTH_WEST wqqqqqadq>
+#define "Inverse Sine Prfn." <SOUTH_EAST ddeeeee>
+#define "Inverse Cosine Prfn." <NORTH_EAST adeeeee>
+#define "Inverse Tangent Prfn." <NORTH_EAST eadeeeeew>
+#define "Inverse Tan. Prfn. II" <WEST deadeeeeewd>
+#define "Logarithmic Distillation" <NORTH_WEST eqaqe>
+#define "Disjunction Distillation" <SOUTH_EAST waw>
+#define "Conjunction Distillation" <NORTH_EAST wdw>
+#define "Exclusion Distillation" <NORTH_WEST dwa>
+#define "Negation Purification" <NORTH_WEST dw>
+#define "Uniqueness Purification" <NORTH_EAST aweaqa>
+#define "Hermes' Gambit" <SOUTH_EAST deaqq>
+#define "Iris' Gambit" <NORTH_WEST qwaqde>
+#define "Thoth's Gambit" <NORTH_EAST dadad>
+#define "Charon's Gambit" <SOUTH_WEST aqdee>
+#define "Waystone Reflection" <SOUTH_WEST eaqwqae>
+#define "Lodestone Reflection" <SOUTH_WEST eaqwqaewede>
+#define "Lesser Fold Reflection" <SOUTH_WEST eaqwqaewdd>
+#define "Greater Fold Reflection" <WEST aqwqawaaqa>
+#define "Akasha's Distillation" <WEST qqqwqqqqqaq>
+#define "Akasha's Gambit" <EAST eeeweeeeede>
+#define "Explosion" <EAST aawaawaa>
+#define "Fireball" <EAST ddwddwdd>
+#define "Impulse" <SOUTH_WEST awqqqwaqw>
+#define "Blink" <SOUTH_WEST awqqqwaq>
+#define "Make Note" <WEST adaa>
+#define "Place Block" <SOUTH_WEST eeeeede>
+#define "Break Block" <EAST qaqqqqq>
+#define "Create Water" <SOUTH_EAST aqawqadaq>
+#define "Destroy Liquid" <SOUTH_WEST dedwedade>
+#define "Conjure Block" <NORTH_EAST qqa>
+#define "Conjure Light" <NORTH_EAST qqd>
+#define "Overgrow" <NORTH_EAST wqaqwawqaqw>
+#define "Edify Sapling" <NORTH_EAST wqaqwd>
+#define "Ignite Block" <SOUTH_EAST aaqawawa>
+#define "Extinguish Area" <SOUTH_WEST ddedwdwd>
+#define "White Sun's Nadir" <NORTH_WEST qqqqqaqwawaw>
+#define "Blue Sun's Nadir" <WEST qqqqqawwawawd>
+#define "Black Sun's Nadir" <SOUTH_WEST qqqqqaewawawe>
+#define "Red Sun's Nadir" <SOUTH_EAST qqqqqadwawaww>
+#define "Green Sun's Nadir" <SOUTH_EAST qqqqqadwawaw>
+#define "Craft Cypher" <EAST waqqqqq>
+#define "Craft Trinket" <EAST wwaqqqqqeaqeaeqqqeaeq>
+#define "Craft Artifact" <EAST wwaqqqqqeawqwqwqwqwqwwqqeadaeqqeqqeadaeqq>
+#define "Recharge Item" <NORTH_WEST qqqqqwaeaeaeaeaea>
+#define "Erase Item" <EAST qdqawwaww>
+#define "Summon Sentinel" <EAST waeawae>
+#define "Banish Sentinel" <NORTH_EAST qdwdqdw>
+#define "Locate Sentinel" <EAST waeawaede>
+#define "Wayfind Sentinel" <EAST waeawaedwa>
+#define "Internalize Pigment" <EAST awddwqawqwawq>
+#define "Anchorite's Flight" <SOUTH_WEST awawaawq>
+#define "Wayfarer's Flight" <NORTH_EAST dwdwdewq>
+#define "Create Lava" <EAST eaqawqadaqd>
+#define "Summon Lightning" <EAST waadwawdaaweewq>
+#define "Summon Rain" <WEST wwweeewwweewdawdwad>
+#define "Dispel Rain" <EAST eeewwweeewwaqqddqdqd>
+#define "Altiora" <NORTH_WEST eawwaeawawaa>
+#define "Greater Teleport" <EAST wwwqqqwwwqqeqqwwwqqwqqdqqqqqdqq>
+#define "White Sun's Zenith" <NORTH_WEST qqqqaawawaedd>
+#define "Blue Sun's Zenith" <WEST qqqaawawaeqdd>
+#define "Black Sun's Zenith" <SOUTH_WEST qqaawawaeqqdd>
+#define "Red Sun's Zenith" <SOUTH_EAST qaawawaeqqqdd>
+#define "Green Sun's Zenith" <EAST aawawaeqqqqdd>
+#define "Summon Greater Sentinel" <EAST waeawaeqqqwqwqqwq>
+#define "Craft Phial" <SOUTH_WEST aqqqaqwwaqqqqqeqaqqqawwqwqwqwqwqw>
+#define "Flay Mind" <NORTH_EAST qeqwqwqwqwqeqaeqeaqeqaeqaqded>

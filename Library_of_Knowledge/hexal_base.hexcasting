@@ -1,0 +1,89 @@
+#define "Phase Block" <WEST daqqqa>
+#define "Timekeeper's Reflection" <NORTH_WEST ddwaa>
+#define "Thanatos' Reflection" <SOUTH_EAST qqaed>
+#define "Diver's Purification" <NORTH_WEST aqawdwaqawd>
+#define "Nurse's Purification" <NORTH_WEST aqwawqa>
+#define "Squire's Purification" <NORTH_WEST wqqqqw>
+#define "Boxer's Purification" <EAST aeqqqqea>
+#define "Lamplighter's Purification" <NORTH_EAST qedqde>
+#define "Factorial Purification" <SOUTH_EAST wawdedwaw>
+#define "Running Sum Purification" <WEST aea>
+#define "Running Product Purification" <NORTH_EAST qaawaaq>
+#define "Classifier's Purification" <SOUTH_WEST awd>
+#define "Physician's Purification" <SOUTH_WEST qawde>
+#define "Sorter's Purification" <EAST qaqqaea>
+#define "Sorter's Reflection" <SOUTH_WEST edeedqd>
+#define "Entity Distillation: Type" <NORTH_EAST dadqqqqqdad>
+#define "Zone Exaltation: Type" <SOUTH_EAST waweeeeewaw>
+#define "Zone Exaltation: Not-Type" <NORTH_EAST wdwqqqqqwdw>
+#define "Mnemosyne's Gambit" <NORTH_EAST eweeewedqdeddw>
+#define "Elysium's Gambit" <SOUTH_EAST qwqqqwqaeaqaaw>
+#define "Lethe's Gambit" <SOUTH_EAST qwqqqwqaww>
+#define "Brigh's Gambit" <SOUTH_WEST eweeewedww>
+#define "Smelt" <EAST wqqqwqqadad>
+#define "Freeze" <WEST weeeweedada>
+#define "Falling Block" <EAST wqwawqwqwqwqwqw>
+#define "Place Block II" <WEST eeeeedeeeee>
+#define "Particles" <NORTH_EAST eqqqqa>
+#define "Summon Projectile Wisp" <NORTH_WEST aqaeqeeeee>
+#define "Summon Cyclic Wisp" <NORTH_WEST aqaweewaqawee>
+#define "Identity Reflection" <NORTH_EAST dedwqqwdedwqqaw>
+#define "Reservoir Reflection" <NORTH_WEST aqaweewaqaweedw>
+#define "Manager's Purification" <SOUTH_EAST aweewaqaweewaawww>
+#define "Allegiance Distillation" <SOUTH_WEST dwqqwdedwqqwddwww>
+#define "Pathfinder's Gambit" <WEST awqwawqaw>
+#define "Pathfinder's Reflection" <EAST ewdwewdew>
+#define "Haste" <WEST aeawqqqae>
+#define "Speedometer's Reflection" <EAST eeewdqdee>
+#define "Allow Transfer" <NORTH_WEST qqqqqewwqeeeee>
+#define "Disallow Transfer" <NORTH_WEST qqqqqeqdeddweqqqqq>
+#define "Allow Transfer Others" <SOUTH_WEST eeeeeqwweqqqqq>
+#define "Disallow Transfer Others" <SOUTH_WEST eeeeeqeaqaawqeeeee>
+#define "Entity Purification: Wisp" <SOUTH_EAST qqwdedwqqdaqaaww>
+#define "Zone Distillation: Wisp" <SOUTH_EAST qqwdedwqqwdeddww>
+#define "Zone Distillation: Non-Wisp" <NORTH_EAST eewaqaweewaqaaww>
+#define "Delay Wisp" <NORTH_WEST aqawded>
+#define "Listen" <EAST aqqqqqwdeddw>
+#define "Wander" <EAST eqwawqwaqww>
+#define "Link" <EAST eaqaaeqqqqqaweaqaaw>
+#define "Link Others" <EAST eqqqqqawqeeeeedww>
+#define "Unlink" <WEST qdeddqeeeeedwqdeddw>
+#define "Unlink Others" <WEST qeeeeedweqqqqqaww>
+#define "Phonebook Purification" <EAST eqqqqqaww>
+#define "Recognition Purification" <SOUTH_WEST aeqqqqqawwd>
+#define "Popularity Reflection" <WEST qeeeeedww>
+#define "Send Iota" <NORTH_WEST qqqqqwdeddw>
+#define "Recitation Reflection" <NORTH_EAST weeeeew>
+#define "Postmaster's Reflection" <SOUTH_EAST aweeeeewaa>
+#define "Unclogging Gambit" <SOUTH_EAST aweeeeewa>
+#define "Open Transmit" <WEST qwdedwq>
+#define "Close Transmit" <EAST ewaqawe>
+#define "Bind Storage" <NORTH_WEST qaqwqaqwqaq>
+#define "Bind Storage - Temporary" <NORTH_EAST edewedewede>
+#define "Stocktake Reflection" <NORTH_EAST dwqqqqqwddww>
+#define "Stocktake Purification" <SOUTH_EAST aweeeeewaaww>
+#define "Capacity Reflection" <SOUTH_EAST awedqdewa>
+#define "Containment Distillation" <NORTH_EAST dwqaeaqwd>
+#define "Mediafy Item" <WEST eaqa>
+#define "Return Item" <EAST qded>
+#define "Weighing Purification" <NORTH_WEST qqqqwqqqqqaa>
+#define "Stacking Distillation" <NORTH_WEST aqaeqded>
+#define "Stacking Distillation II" <SOUTH_WEST dedqeaqa>
+#define "Splitting Gambit" <EAST eaqaaw>
+#define "Depot Purification" <SOUTH_WEST qqqqqaw>
+#define "Depot Gambit" <SOUTH_EAST eeeeedw>
+#define "Craft" <SOUTH_EAST wwawdedwawdewwdwaqawdwwedwawdedwaww>
+#define "Seniority Purification" <NORTH_WEST qqwdedwqqaww>
+#define "Offering Purification" <SOUTH_EAST awdedwaawwqded>
+#define "Trade" <NORTH_WEST awdedwaeqded>
+#define "Use Item On" <EAST qqqwqqqqaa>
+#define "Accelerate" <SOUTH_EAST wwwdwdwwwawqqeqwqqwqeqwqq>
+#define "Consume Wisp" <NORTH_WEST wawqwawwwewwwewwwawqwawwwewwwewdeaweewaqaweewaawwww>
+#define "Bind Wisp" <SOUTH_WEST aqweewqaeaqweewqaqwww>
+#define "Familiar's Reflection" <EAST daqweewqaeaqweewqaqwwww>
+#define "Gate's Reflection" <WEST qwqwqwqwqwqqeaeaeaeaeae>
+#define "Gate's Opening" <WEST qaqeede>
+#define "Gate's Dismissal" <EAST edeqqaq>
+#define "Marked Purification" <WEST qawwaqqqaq>
+#define "Marked Distillation" <EAST edwwdeeede>
+#define "Gate's Closing" <WEST qqqwwqqqwqqawdedw>

@@ -1,0 +1,2 @@
+#include "Library_of_Knowledge/simple_hexes.hexcasting"
+[HexPattern(NORTH_EAST qaq), HexPattern(EAST aa), HexPattern(NORTH_EAST qaq), HexPattern(EAST wa), HexPattern(EAST wqaawdd), HexPattern(EAST qaqqqqq)]
