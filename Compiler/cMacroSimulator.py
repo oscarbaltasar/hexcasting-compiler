@@ -13,6 +13,26 @@ def remove_comments(code):
     code = re.sub(r'/\*.*?\*/', '', code, flags=re.DOTALL)
     return code
 
+# Function to evaluate special numerical patterns
+def evaluate_numerical_pattern(number):
+    base_pattern = "aqaa"
+    operations = {"w": 1, "q": 5, "e": 10}
+    current_value = 0
+    pattern = []
+
+    while number > 0:
+        if number >= 10:
+            pattern.append("e")
+            number -= 10
+        elif number >= 5:
+            pattern.append("q")
+            number -= 5
+        elif number >= 1:
+            pattern.append("w")
+            number -= 1
+
+    return f"<EAST {base_pattern}{''.join(pattern)}>"
+
 # Function to process a file and simulate C Macros
 def process_file(file_path, processed_files=set()):
     if file_path in processed_files:
@@ -43,8 +63,8 @@ def process_file(file_path, processed_files=set()):
             include_file_path = include_file
             if not os.path.isabs(include_file):
                 include_file_path = os.path.join(os.path.dirname(file_path), include_file)
-            # Update macros with the included file
-            output_lines.extend(process_file(include_file_path, processed_files))
+            # Process macros from the included file, but don't add its contents to output
+            process_file(include_file_path, processed_files)
             continue
 
         # Handle multi-line #define
@@ -63,7 +83,7 @@ def process_file(file_path, processed_files=set()):
                 continue
 
         # Handle single-line #define
-        define_match = re.match(r'#define\s+"([^"]+)"\s+(.*)', line)
+        define_match = re.match(r'#define\s+"([^"]+)"\s*(.*)', line)
         if define_match:
             macro_name = define_match.group(1)
             macro_value = define_match.group(2).replace('\\', '').strip()  # Ensure no backslashes
@@ -118,11 +138,15 @@ def process_file(file_path, processed_files=set()):
             continue
 
         # Replace macros in the current line
-        for macro_name, macro_value in macros.items():
+        for macro_name, macro_value in sorted(macros.items(), key=lambda x: -len(x[0])):  # Sort by macro length
             # Escape any regex special characters in macro names
             escaped_macro_name = re.escape(macro_name)
             # Replace macro in the line with its value
             line = re.sub(rf'\b{escaped_macro_name}\b', macro_value, line)
+
+        # After macros are replaced, check for numeric special case
+        if line.isdigit() and int(line) < 1000:
+            line = evaluate_numerical_pattern(int(line))
 
         output_lines.append(line)
 
@@ -138,4 +162,4 @@ if __name__ == "__main__":
     output_lines = process_file(input_file)
 
     # Output the processed lines to the console
-    print("\n".join(output_lines).replace("\\",""))
+    print("\n".join(output_lines).replace("\\", ""))
